@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    background-color: #222;
+    color: azure;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px;
+}
+
+.date-body{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 2px;
+    margin: 10px;
+    margin-top: 0;
+    padding: 10px;
+    border: 3px solid;
+    transition: all 0.3s;
+}
+
+.date-body-js{
+    border: 3px solid red;
+}
+
+.day{
+    background-color: #333;
+    color: azure;
+    text-align: center;
+    padding: 2px;
+}
+
+.dates{
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    margin: 2px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.dates:hover{
+    background-color: #333;
+    text-align: center;
+    border-radius: 10px;
+    color: azure;
+    font-size: 15px;
+    margin: 2px;
+}
+.dates-js{
+    background-color: #333;
+    color: azure;
+
+}
+
+h3{
+    margin: 10px;
+    margin-bottom: 0px;
+}
