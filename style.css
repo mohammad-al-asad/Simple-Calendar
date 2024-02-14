@@ -28,6 +28,7 @@
     border: 3px solid red;
 }
 
+
 .day{
     background-color: #333;
     color: azure;
@@ -47,18 +48,17 @@
 }
 .dates:hover{
     background-color: #333;
-    text-align: center;
-    border-radius: 10px;
     color: azure;
-    font-size: 15px;
-    margin: 2px;
 }
 .dates-js{
     background-color: #333;
     color: azure;
-
+    
 }
 
+.f{
+    background-color: lightcoral;
+}
 h3{
     margin: 10px;
     margin-bottom: 0px;
